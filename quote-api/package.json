@@ -1,0 +1,47 @@
+{
+  "name": "quote-api",
+  "version": "0.14.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "node_modules/.bin/eslint --ext js .",
+    "lint:fix": "node_modules/.bin/eslint --fix --ext js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyoSU/quote-api.git"
+  },
+  "author": "LyoSU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LyoSU/quote-api/issues"
+  },
+  "homepage": "https://github.com/LyoSU/quote-api#readme",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "emoji-db": "^14.0.1",
+    "jimp": "^0.22.12",
+    "jsdom": "^24.0.0",
+    "koa": "^2.15.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-logger": "^3.2.1",
+    "koa-response-time": "^2.1.0",
+    "koa-router": "^7.4.0",
+    "lottie-node": "^2.0.0",
+    "lottie-web": "^5.12.2",
+    "object-sizeof": "^2.6.4",
+    "runes": "^0.4.3",
+    "sharp": "^0.32.5",
+    "smartcrop-sharp": "^2.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^4.1.0"
+  }
+}
